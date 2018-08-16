@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Meddon|Molle:400i');
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: hotpink;
+    /* font-family: 'Molle', cursive; */
+    font-family: 'Meddon', cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+.hero {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.numbers {
+    font-size: 28px;
+}
+
+#number-to-guess, #score {
+    font-family: 'Boogaloo', cursive;
+    font-size: 48px;
+}
+
+p {
+    color: hotpink;
+    /* text-align: center; */
+}
+
+.rules {
+    border-width: 5px;
+    border-style: solid;
+    border-color: purple;
+    margin: 50px;
+    padding-top: 10px;
+}
+
+.rules-label {
+    padding-top: 25px;
+}
+
+.score {
+    text-align: center;
+    font-family: 'Boogaloo', cursive;
+    font-size: 36px;
+    color: purple;
+}
+
+img {
+    width: 200px;
+    height: 100%;
+}
+
+#crystals {
+    background-color: black;
+}
