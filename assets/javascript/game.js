@@ -25,8 +25,17 @@ var randomNumber = 0;
         function setCrystalValues () {
             crystal1value = randomIntFromInterval(1,12);
             crystal2value = randomIntFromInterval(1,12);
+                if (crystal1value === crystal2value) {
+                    crystal2value = randomIntFromInterval(1,12);
+                }
             crystal3value = randomIntFromInterval(1,12);
+                if (crystal1value === crystal3value || crystal2value === crystal3value) {
+                    crystal3value = randomIntFromInterval(1,12);
+                }
             crystal4value = randomIntFromInterval(1,12);
+                if (crystal1value === crystal4value || crystal2value === crystal4value || crystal3value === crystal4value) {
+                    crystal4value = randomIntFromInterval(1,12);
+                }
         };
 
         setCrystalValues();
